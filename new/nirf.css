@@ -1,0 +1,22 @@
+.navnirf{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 3px outset gray;
+    border-radius: 5px;
+    margin: 50px 50px;
+    padding: 10px 10px;
+}
+.button{
+    background-color: blueviolet;
+    border: none;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: white;
+}
+p::selection
+{
+    background-color: red;
+}
+p:hover{
+    background-color: green;
+}

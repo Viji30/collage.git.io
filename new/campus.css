@@ -1,0 +1,14 @@
+.ghh{
+    background-color: bisque;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+p::selection
+{
+    background-color: red;
+}
+p:hover{
+    background-color: green;
+}

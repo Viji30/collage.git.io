@@ -1,0 +1,31 @@
+.navnaac{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 3px outset gray;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 50px 50px;
+}
+
+.button{
+    background-color:rgb(54, 184, 228);
+    border: none;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    color: white;
+
+}
+.button1{
+    background-color:rgb(35, 179, 35);
+    border: none;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    color: white;
+}
+p::selection
+{
+    background-color: red;
+}
+p:hover{
+    background-color: green;
+}

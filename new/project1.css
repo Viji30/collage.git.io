@@ -1,0 +1,153 @@
+.nav{
+    overflow: hidden;
+    background-color: rgb(56, 56, 61);
+}
+.nav a{
+    float: left;
+    text-align: right;
+    padding: 9px 5px;
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+}
+.nav a:hover{
+    background-color: blue;
+    color: white;
+}
+.grid{
+    background-color: darkblue;
+}
+.azz{
+    display: grid;
+    grid-template-columns: auto auto auto;
+       color: white;
+}
+
+.gridnav{
+    position: relative;
+   
+}
+table{
+    border: 2px solid white;
+    margin: 20px;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+}
+.gridnav select{
+    display:inline;
+    font-size: 10px;
+    text-align: center;
+}
+.navhome{
+    border: 3px inset black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 25px;
+    padding: 10px 10px;
+    background-color:bisque;
+}
+h6{
+    color: blueviolet;
+}
+.button{
+    color: white;
+    background-color: orange;
+    padding: 10px 10px;
+    margin: 20px;
+    border: none;
+}
+.caa{
+    background-color:rgb(17, 17, 126) ;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.ann a{
+    text-decoration: none;
+    color: white;
+}
+p::selection
+{
+    background-color: red;
+}
+p:hover{
+    background-color: green;
+}
+@media screen and(max-width:320px)
+{
+    p:hover{
+        background-color: green;
+    }
+    p::selection
+    {
+        background-color: red;
+    }
+    .nav{
+        overflow: hidden;
+        background-color: blue;
+    }
+    .nav a{
+        float: center;
+        text-align: center;
+        padding: 100%;
+        text-decoration: none;
+        color: white;
+        margin-left: 100%;
+    }
+    .nav a:hover{
+        background-color: blue;
+        color: white;
+    }
+    .grid{
+        background-color: darkblue;
+    }
+    .azz{
+        display: flex;
+        grid-template-columns:none;
+           color: white;
+    }
+    
+    .gridnav{
+        position: relative;
+       
+    }
+    table{
+        border: 2px solid white;
+        margin: 100%;
+        background-color: white;
+        padding: 100%;
+        
+    }
+    .gridnav select{
+        display:flex;
+        font-size: 0%;
+    }
+    .navhome{
+        border: 3px inset black;
+        display: flex;
+        grid-template-columns: auto auto auto;
+        margin: 100%;
+        padding: 100%;
+        background-color:bisque;
+    }
+    h6{
+        color: blueviolet;
+        font-size: 0%;
+    }
+    .button{
+        color: white;
+        background-color: orange;
+        padding: 100%;
+        margin: 100%;
+        border: none;
+    }
+    .caa{
+        background-color:rgb(17, 17, 126) ;
+        display: flex;
+        grid-template-columns: auto auto;
+    }
+    .ann a{
+        text-decoration: none;
+        color: white;
+    }
+}
